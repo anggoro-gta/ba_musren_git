@@ -1,0 +1,1 @@
+<form action='/masterusers/update/' method='post' enctype='multipart/form-data'><?= csrf_field(); ?><input type='hidden' name='id' value=''><input type='hidden' name='usernamelama' value=''><input type='hidden' name='emaillama' value=''><button type='submit' class='btn btn-block btn-warning'><i class='far fa-edit'></i> Edit</button></form>
